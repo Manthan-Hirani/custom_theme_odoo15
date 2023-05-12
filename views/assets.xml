@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="assets_frontend" inherit_id="website.layout" priority="1">
+        <xpath expr="//link[last()]" position="after">
+            <!-- Page CSS -->
+            <link rel="stylesheet" type="text/css" href="custom_theme/static/src/scss/main.css"/>
+            <link rel="stylesheet" type="text/css" href="custom_theme/static/src/js/navbar.js"/>
+<!--            <link rel="stylesheet" type="text/css" href="custom_theme/static/src/scss/01.css"/>-->
+<!--            <link rel="stylesheet" type="text/css" href="custom_theme/static/src/scss/03.css"/>-->
+            <!-- Theme CSS -->
+<!--            <link rel="stylesheet" type="text/scss" href="/Aspire_Odoo_Theme/static/src/scss/style.scss"/>-->
+        </xpath>
+
+<!--        <xpath expr="." inherit_id="website.layout" position="inside">-->
+<!--            <script type="text/javascript" src="/Aspire_Odoo_Theme/static/src/js/main.js"/>-->
+<!--        </xpath>-->
+
+    </template>
+</odoo>

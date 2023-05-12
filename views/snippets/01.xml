@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="01" name="01">
+        <section class="big-section cover-background background-position-center-bottom"
+                 style="background-image:url('/custom_theme/static/src/img/background-image.png');">
+            <div class="container pt-5">
+                <div class="row py-lg-5 align-items-center h-720px lg-h-550px md-h-550px xs-h-750px">
+                    <div class="col-12 col-xl-5 col-md-6 p-3 sm-margin-40px-bottom">
+                        <p class="title-small">Digital Experience</p>
+                        <h1 class="title-main p-0 m-0">
+                            Digitizing Business on
+                            <span>Mobile and Web Platforms</span>
+                        </h1>
+                        <p class="py-4 mb-4">Providing stunning enterprise-class solution at your service to unify
+                            customer experience.
+                        </p>
+                        <button href="#" class="custom-btn btn-main">
+                            Explore Now
+                        </button>
+                    </div>
+                    <div class="col-12 col-xl-7 col-md-6 text-center text-lg-end image-area">
+                        <img class="w-100" src="/custom_theme/static/src/img/MAIN.gif" alt="image"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

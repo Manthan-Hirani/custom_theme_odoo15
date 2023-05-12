@@ -1,0 +1,33 @@
+.countmain {
+    display: block;
+    overflow: hidden;
+    padding: 40px 0 30px;
+    background: url(/custom_theme/static/src/img/dots.png) no-repeat left top;
+    position: relative;
+    z-index: 1;
+}
+
+.count-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #003f63;
+    line-height: 40px;
+    letter-spacing: -1px;
+    padding-bottom: 10px;
+}
+
+.swiper-horizontal {
+    touch-action: pan-y;
+}
+
+.swiper, swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}

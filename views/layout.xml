@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+        <!--Header Start-->
+        <xpath expr="//header" position="replace">
+            <nav id="nav" class="navbar navbar-expand-lg navbar-light mt-0 pt-0"
+                 style="top: 0px; background: transparent; position: sticky;">
+                <div class="container-fluid nav-header-container px-5">
+                    <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
+                        <a class="navbar-brand" href="#">
+                            <img src="/custom_theme/static/src/img/logo.png" class="default-logo" alt="aspire-logo"/>
+                        </a>
+                    </div>
+                    <div class="col-auto col-lg-8 menu-order px-lg-0">
+                        <div class="collapse navbar-collapse justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link text-dark">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link text-dark">Industries</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link text-dark">What we do</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link text-dark">Casestudies</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link text-dark">Career</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto col-lg-2 ">
+                        <div class="header-social-icon d-flex justify-content-end align-items-center">
+                            <div class="search-modern">
+                                <div class="search-wrap">
+                                    <a class="search-btn openBtn px-4" href="#" onclick="openSearch()">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"
+                                             viewBox="0 0 24 24" fill="none" stroke="#003f63" stroke-width="2"
+                                             stroke-linecap="round" stroke-linejoin="round"
+                                             class="feather feather-search">
+                                            <circle cx="11" cy="11" r="8"/>
+                                            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div id="myOverlay" class="overlay shadow-sm">
+                                    <div class="search-header">
+                                        <span class="search-header-logo">
+                                            <img src="/custom_theme/static/src/img/logo.png" alt=""/>
+                                        </span>
+                                        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px"
+                                                 viewBox="0 0 24 24" fill="none" stroke="#003f63"
+                                                 stroke-width="2"
+                                                 stroke-linecap="round" stroke-linejoin="round"
+                                                 class="feather feather-x">
+                                                <line x1="18" y1="6" x2="6" y2="18"/>
+                                                <line x1="6" y1="6" x2="18" y2="18"/>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="search_form_wrap">
+                                        <form role="search" method="get" class="search_form" action="#&quot;"
+                                              data-inited-validation="1">
+                                            <input type="text" class="search_field fill_inited"
+                                                   placeholder="Type words and hit enter" value=""/>
+                                            <button type="submit" class="search_submit">
+                                                <svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="22px"
+                                                        height="22px"
+                                                        viewBox="0 0 24 24" fill="none" stroke="#003f63"
+                                                        stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-search">
+                                                    <circle cx="11" cy="11" r="8"/>
+                                                    <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                                                </svg>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn-menu" onclick="openNav()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"
+                                         viewBox="0 0 24 24"
+                                         fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                         stroke-linejoin="round" class="feather feather-menu">
+                                        <line x1="3" y1="12" x2="21" y2="12"/>
+                                        <line x1="3" y1="6" x2="21" y2="6"/>
+                                        <line x1="3" y1="18" x2="21" y2="18"/>
+                                    </svg>
+                                </button>
+                                <div id="myNav" class="overlay-menu">
+                                    <button class="closebtn" onclick="closeNav()">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"
+                                             viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
+                                             stroke-linecap="round" stroke-linejoin="round"
+                                             class="feather feather-x">
+                                            <line x1="18" y1="6" x2="6" y2="18"/>
+                                            <line x1="6" y1="6" x2="18" y2="18"/>
+                                        </svg>
+                                    </button>
+                                    <div class="overlay-menu-item">
+                                        <a href="#">About</a>
+                                        <a href="#">Services</a>
+                                        <a href="#">Clients</a>
+                                        <a href="#">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </xpath>
+        <!--Header End-->
+
+        <!--Footer Start-->
+        <xpath expr="//footer" position="replace">
+            <div class="container pt-5">
+<!--                <div>-->
+<!--                    <h1>This is footer</h1>-->
+<!--                </div>-->
+                <div class="row footer-detail py-2">
+                    <div class="col-12 col-xl-3 col-md-6">
+                        <h5>Company</h5>
+                        <ul>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Why Aspire</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Pricing Model</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Partner With Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Terms of us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Sitemap</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Careers</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-xl-3 col-md-6">
+                        <h5>Technologies</h5>
+                        <ul>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">JAVA EE</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Liferay</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Mobile</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">.Net</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Big Data</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">BI &amp; Reporting</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-xl-3 col-md-6">
+                        <h5>Services</h5>
+                        <ul>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Portal</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">ERP Odoo</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Product Development</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Enterprise Mobility</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Front-end Development</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Cloud</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Content Management</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">BI &amp; Reporting</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">Software Testing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-xl-3 col-md-6 footer-content">
+                        <h5>Get in touch</h5>
+                        <ul>
+                            <div class="detail-1 text-secondary d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <li>202, Parisharam Complex, Mithakhali Six Roads, Navrangpura, Ahmedabad, Gujarat,
+                                    India.
+                                </li>
+                            </div>
+                            <div class="detail-2 text-secondary d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 512 512"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round" class="feather feather-phone-call">
+                                    <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>
+                                </svg>
+                                <li>+91 63530 86224 (India, HR)<br/>+1 240 200 7535 (US)<br/>
+                                </li>
+                            </div>
+                            <div class="detail-3 text-secondary d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round" class="feather feather-mail">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <li>sales@aspiresoftware.in (Sales)<br/>careers@aspiresoftware.in (Careers)
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row footer-end py-3">
+                    <div class="col-12 col-xl-6 col-md-6">
+                        <p class="text-secondary">@2021 Aspire Software Solutions. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-12 col-xl-6 col-md-6">
+                        <ul>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         width="22px" height="22px" viewBox="0 0 24 24" fill="none"
+                                         stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                         class="feather feather-twitter">
+                                        <path
+                                                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         width="22px" height="22px" viewBox="0 0 24 24" fill="none"
+                                         stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                         class="feather feather-facebook">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         width="22px" height="22px" viewBox="0 0 24 24" fill="none"
+                                         stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                         class="feather feather-instagram">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none text-secondary">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         width="22px" height="22px" viewBox="0 0 24 24" fill="none"
+                                         stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                         class="feather feather-linkedin">
+                                        <path
+                                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect x="2" y="9" width="4" height="12"/>
+                                        <circle cx="4" cy="4" r="2"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+        <!--Footer End-->
+    </template>
+</odoo>
