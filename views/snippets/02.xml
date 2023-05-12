@@ -155,13 +155,13 @@
 <!--                            style="background-image: url(/web/image/website.library_image_02)" class="active"/>-->
 
 <!--                    </ul>-->
-                    <a class="carousel-control-prev o_we_no_overlay o_not_editable ml-0" href="#slideshow_1683865912044"
-                       data-slide="prev" aria-label="Previous" title="Previous">
+                    <a class="carousel-control-prev o_we_no_overlay o_not_editable" href="#slideshow_1683865912044"
+                       data-slide="prev" aria-label="Previous" title="Previous" style="margin-left: -20px">
                         <span class="fa fa-chevron-left fa-2x text-white"/>
                         <span class="sr-only o_default_snippet_text">Previous</span>
                     </a>
                     <a class="carousel-control-next o_we_no_overlay o_not_editable mr-0" href="#slideshow_1683865912044"
-                       data-slide="next" aria-label="Next" title="Next">
+                       data-slide="next" aria-label="Next" title="Next" style="margin-right: 200px">
                         <span class="fa fa-chevron-right fa-2x text-white"/>
                         <span class="sr-only o_default_snippet_text">Next</span>
                     </a>
