@@ -10,11 +10,24 @@
         'views/snippets/02.xml',
         'views/snippets/03.xml',
         'views/snippets/04.xml',
+        'views/snippets/05.xml',
         'views/snippets/06.xml',
         'views/snippets/07.xml',
         'views/snippets/08.xml',
         'views/snippets/10.xml',
+        'views/snippets/swiper_02.xml',
     ],
+    # 'qweb': [
+    #     # 'views/snippets/swiper_02.xml',
+    # ],
+    # 'js': [
+    #     '//unpkg.com/swiper/swiper-bundle.min.js',
+    #     'static/src/js/swiper_02.js',
+    # ],
+    # 'css': [
+    #     '//unpkg.com/swiper/swiper-bundle.min.css',
+    #     'static/src/scss/main.css',
+    # ],
     'assets': {
         # 'web._assets_primary_variables': [
         #     'custom_theme/static/src/scss/variable.scss',
@@ -24,6 +37,7 @@
             # 'custom_theme/static/src/scss/owl.carousel.min.css',
             # 'custom_theme/static/src/scss/owl.theme.default.css',
             # 'custom_theme/static/src/scss/02.css',
+            'custom_theme/static/src/js/carousel_02.js',
             'custom_theme/static/src/js/navbar.js',
             # 'custom_theme/static/src/js/02.js',
             # 'custom_theme/static/src/OwlCarousel2/**/*.scss',
@@ -40,17 +54,17 @@
             # 'custom_theme/static/src/scss/10.css',
         ],
         # 'web.assets_backend': [
-            # 'custom_theme/static/src/js/jquery-3.6.4.js',
-            # 'custom_theme/static/src/scss/main.css',
-            # 'custom_theme/static/src/js/navbar.js',
-            # 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js'
-            # 'custom_theme/static/src/scss/01.css',
-            # 'custom_theme/static/src/scss/03.css',
-            # 'custom_theme/static/src/scss/04.css',
-            # 'custom_theme/static/src/scss/06.css',
-            # 'custom_theme/static/src/scss/07.css',
-            # 'custom_theme/static/src/scss/08.css',
-            # 'custom_theme/static/src/scss/10.css',
+        # 'custom_theme/static/src/js/jquery-3.6.4.js',
+        # 'custom_theme/static/src/scss/main.css',
+        # 'custom_theme/static/src/js/navbar.js',
+        # 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js'
+        # 'custom_theme/static/src/scss/01.css',
+        # 'custom_theme/static/src/scss/03.css',
+        # 'custom_theme/static/src/scss/04.css',
+        # 'custom_theme/static/src/scss/06.css',
+        # 'custom_theme/static/src/scss/07.css',
+        # 'custom_theme/static/src/scss/08.css',
+        # 'custom_theme/static/src/scss/10.css',
         # ],
 
     },

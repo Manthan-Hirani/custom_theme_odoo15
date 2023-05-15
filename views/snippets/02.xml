@@ -83,53 +83,16 @@
                                 </div>
                             </div>
                         </div>
-<!--                        <div class="carousel-item" style="min-height: 476px;">-->
-<!--                            <div class="row">-->
-<!--                                <div class="card mx-2 col">-->
-<!--                                    <img src="/web/image/website.library_image_08" class="card-img-top" alt="image"/>-->
-<!--                                    <div class="card-body">-->
-<!--                                        <h5 class="card-title font-weight-bold">Card title 1</h5>-->
-<!--                                        <p class="card-text">Some quick example text to build on the card title and make-->
-<!--                                            up-->
-<!--                                            the bulk of the card's content.-->
-<!--                                        </p>-->
-<!--                                        <a href="#" class="text-primary">Read More</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="card mx-2 col">-->
-<!--                                    <img src="/web/image/website.library_image_08" class="card-img-top" alt="image"/>-->
-<!--                                    <div class="card-body">-->
-<!--                                        <h5 class="card-title font-weight-bold">Card title 1</h5>-->
-<!--                                        <p class="card-text">Some quick example text to build on the card title and make-->
-<!--                                            up-->
-<!--                                            the bulk of the card's content.-->
-<!--                                        </p>-->
-<!--                                        <a href="#" class="text-primary">Read More</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="card mx-2 col">-->
-<!--                                    <img src="/web/image/website.library_image_08" class="card-img-top" alt="image"/>-->
-<!--                                    <div class="card-body">-->
-<!--                                        <h5 class="card-title font-weight-bold">Card title 1</h5>-->
-<!--                                        <p class="card-text">Some quick example text to build on the card title and make-->
-<!--                                            up-->
-<!--                                            the bulk of the card's content.-->
-<!--                                        </p>-->
-<!--                                        <a href="#" class="text-primary">Read More</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
                     </div>
 
-                    <!--                    <ul class="carousel-indicators">-->
-                    <!--                        <li data-target="#slideshow_1683886530772" data-slide-to="0"-->
-                    <!--                            style="background-image: url(/web/image/website.library_image_08)" class="active"/>-->
-                    <!--                        <li data-target="#slideshow_1683886530772" data-slide-to="1"-->
-                    <!--                            style="background-image: url(/web/image/website.library_image_03)"/>-->
-                    <!--                        <li data-target="#slideshow_1683886530772" data-slide-to="2"-->
-                    <!--                            style="background-image: url(/web/image/website.library_image_02)"/>-->
-                    <!--                    </ul>-->
+                    <ul class="carousel-indicators">
+                        <li data-target="#slideshow_1683886530772" data-slide-to="0"
+                            style="background-image: url(/web/image/website.library_image_08)" class="active"/>
+                        <li data-target="#slideshow_1683886530772" data-slide-to="1"
+                            style="background-image: url(/web/image/website.library_image_03)"/>
+<!--                        <li data-target="#slideshow_1683886530772" data-slide-to="2"-->
+<!--                            style="background-image: url(/web/image/website.library_image_02)"/>-->
+                    </ul>
 
                     <a class="carousel-control-prev o_we_no_overlay o_not_editable" href="#slideshow_1683886530772"
                        data-slide="prev" aria-label="Previous" title="Previous">

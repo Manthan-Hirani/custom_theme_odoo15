@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="05" name="05">
+        <section>
+            <div class="container">
+                Section 5
+            </div>
+        </section>
+    </template>
+</odoo>

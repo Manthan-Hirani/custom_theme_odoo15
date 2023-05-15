@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="swiper_02" name="swiper_02">
+        <!--    <template id="swiper_02" name="swiper_02">-->
+<!--        <xpath expr="//div[@id='wrapwrap']" position="inside">-->
+            <section>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- Add your swiper slides here -->
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                    </div>
+                    <!-- Add pagination and navigation elements if needed -->
+                    <div class="swiper-pagination"/>
+                    <div class="swiper-button-next"/>
+                    <div class="swiper-button-prev"/>
+                </div>
+            </section>
+<!--        </xpath>-->
+    </template>
+
+</odoo>

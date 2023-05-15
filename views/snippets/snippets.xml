@@ -12,10 +12,12 @@
                         <t t-snippet="custom_theme.03"
                            t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_about.jpg"/>
                         <t t-snippet="custom_theme.04"/>
+                        <t t-snippet="custom_theme.05"/>
                         <t t-snippet="custom_theme.06"/>
                         <t t-snippet="custom_theme.07"/>
                         <t t-snippet="custom_theme.08"/>
                         <t t-snippet="custom_theme.10"/>
+                        <t t-snippet="custom_theme.swiper_02"/>
                     </div>
                 </div>
             </div>
