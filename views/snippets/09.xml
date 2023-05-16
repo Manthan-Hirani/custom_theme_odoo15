@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="09" name="09">
+        <section>
+            <div class="container">
+                <div class="mt-5 owl-carousel owl-theme">
+                    <div class="card card-service" role="group" aria-label="1/6">
+                        <img src="img/erp-odoo.png" class="card-img-top" alt="img"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.
+                            </p>
+                            <a href="#" class="text">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card card-service" role="group" aria-label="2/6">
+                        <img src="img/icon_01.png" class="card-img-top" alt="img"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.
+                            </p>
+                            <a href="#" class="text">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card card-service" role="group" aria-label="3/6">
+                        <img src="img/icon_02.png" class="card-img-top" alt="img"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.
+                            </p>
+                            <a href="#" class="text">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card card-service" role="group" aria-label="4/6">
+                        <img src="img/icon_03.png" class="card-img-top" alt="img"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.
+                            </p>
+                            <a href="#" class="text">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card card-service" role="group" aria-label="5/6">
+                        <img src="img/icon_04.png" class="card-img-top" alt="img"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.
+                            </p>
+                            <a href="#" class="text">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card card-service" role="group" aria-label="6  /6">
+                        <img src="img/portal.png" class="card-img-top" alt="img"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.
+                            </p>
+                            <a href="#" class="text">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

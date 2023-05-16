@@ -16,6 +16,7 @@
                         <t t-snippet="custom_theme.06"/>
                         <t t-snippet="custom_theme.07"/>
                         <t t-snippet="custom_theme.08"/>
+                        <t t-snippet="custom_theme.09"/>
                         <t t-snippet="custom_theme.10"/>
                         <t t-snippet="custom_theme.swiper_02"/>
                     </div>
