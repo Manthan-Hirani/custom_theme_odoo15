@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <template id="05" name="Technologies">
+
+        <section>
+            <div class="container py-5">
+
+                <div class="row py-4">
+                    <div class="col-12 col-xl-12 col-md-12 px-4 py-2">
+                        <div class="client-logo swiper myAutoSwiper slider border-0 py-5 swiper-initialized swiper-horizontal swiper-backface-hidden">
+                            <ul class="d-flex swiper-wrapper text-center m-0 py-5 px-3">
+                                <li class="flex-fill swiper-slide ml-0">
+                                    <img src="/custom_theme/static/src/img/logo-1.png" alt=""
+                                         style="height: 50px; width: 168px"/>
+                                </li>
+                                <li class="flex-fill swiper-slide">
+                                    <img src="/custom_theme/static/src/img/logo-2.png" alt=""
+                                         style="height: 50px; width: 168px"/>
+                                </li>
+                                <li class="flex-fill swiper-slide">
+                                    <img src="/custom_theme/static/src/img/logo-3.png" alt=""
+                                         style="height: 50px; width: 168px"/>
+                                </li>
+                                <li class="flex-fill swiper-slide">
+                                    <img src="/custom_theme/static/src/img/logo-4.png" alt=""
+                                         style="height: 50px; width: 168px"/>
+                                </li>
+                                <li class="flex-fill swiper-slide">
+                                    <img src="/custom_theme/static/src/img/logo-5.png" alt=""
+                                         style="height: 50px; width: 168px"/>
+                                </li>
+                                <li class="flex-fill swiper-slide">
+                                    <img src="/custom_theme/static/src/img/logo-1.png" alt=""
+                                         style="height: 50px; width: 168px"/>
+                                </li>
+                                <li class="flex-fill swiper-slide">
+                                    <img src="/custom_theme/static/src/img/logo-2.png" alt=""
+                                         style="height: 50px; width: 168px"/>
+                                </li>
+                                <li class="flex-fill swiper-slide">
+                                    <img src="/custom_theme/static/src/img/logo-3.png" alt=""
+                                         style="height: 50px; width: 168px"/>
+                                </li>
+                                <li class="flex-fill swiper-slide">
+                                    <img src="/custom_theme/static/src/img/logo-4.png" alt=""
+                                         style="height: 50px; width: 168px"/>
+                                </li>
+                                <li class="flex-fill swiper-slide">
+                                    <img src="/custom_theme/static/src/img/logo-5.png" alt=""
+                                         style="height: 50px; width: 168px"/>
+                                </li>
+                            </ul>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </template>
+</odoo>

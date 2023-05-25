@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <template id="09" name="Testimonial">
+        <section class="testimonial-sec bg-wrapper"
+                 style="background-image:url(/custom_theme/static/src/img/bg-image-04.png); background-size: contain; background-position:center left;background-repeat:no-repeat">
+            <div class="container-fluid py-lg-5">
+                <div class="row">
+                    <div class="image-section align-self-center col-12 col-xl-5 col-md-6 px-5">
+                        <img src="/custom_theme/static/src/img/animation04.gif" class="img-fluid float-end" alt=""/>
+                    </div>
+                    <div class="content-section align-self-center col-12 col-xl-7 col-md-6">
+                        <div>
+                            <p class="title-small mx-3">testimonial</p>
+                            <h1 class="title-heading mx-3">what our
+                                <span>client say?</span>
+                            </h1>
+                        </div>
+                        <div
+                                class="swiper mySwipers testimonial-area px-3 swiper-initialized swiper-horizontal swiper-backface-hidden">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper py-4" id="swiper-wrapper-92c46faa7b8dd1fb" aria-live="polite"
+                                 style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                                <!-- Slides -->
+                                <div class="swiper-slide testimonial-test shadow border-0 py-5 px-4 card-service swiper-slide-active"
+                                     style="width: 360.5px; margin-right: 20px;" role="group" aria-label="1 / 4">
+                                    <div class="py-2">
+                                        <div class="px-4 testimonial-data ">
+                                            <p class="m-0 pb">Aspire has good professional developers and they were a
+                                                proper
+                                                match to our requirements. They are dedicated and always available to
+                                                solve
+                                                problems. Code was very clean and easy to understand.
+                                            </p>
+                                            <h5 class="aspire-tag">Nate Taylor</h5>
+                                            <p class="m-0">Principal At Minotaur Law</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-test shadow border-0 py-5 px-4 card-service swiper-slide-next"
+                                     style="width: 360.5px; margin-right: 20px;" role="group" aria-label="2 / 4">
+                                    <div class="py-2">
+                                        <div class="px-4 testimonial-data">
+                                            <p class="m-0 pb">Aspire has good professional developers and they were a
+                                                proper
+                                                match to our requirements. They are dedicated and always available to
+                                                solve
+                                                problems. Code was very clean and easy to understand.
+                                            </p>
+                                            <h5 class="aspire-tag">Nate Taylor</h5>
+                                            <p class="m-0">Principal At Minotaur Law</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-test shadow border-0 py-5 px-4 card-service"
+                                     style="width: 360.5px; margin-right: 20px;" role="group" aria-label="3 / 4">
+                                    <div class="py-2">
+                                        <div class="px-4 testimonial-data">
+                                            <p class="m-0 pb">Aspire has good professional developers and they were a
+                                                proper
+                                                match to our requirements. They are dedicated and always available to
+                                                solve
+                                                problems. Code was very clean and easy to understand.
+                                            </p>
+                                            <h5 class="aspire-tag">Nate Taylor</h5>
+                                            <p class="m-0">Principal At Minotaur Law</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-test shadow border-0 py-5 px-4 card-service"
+                                     style="width: 360.5px; margin-right: 20px;" role="group" aria-label="4 / 4">
+                                    <div class="py-2">
+                                        <div class="px-4 testimonial-data">
+                                            <p class="m-0 pb">Aspire has good professional developers and they were a
+                                                proper
+                                                match to our requirements. They are dedicated and always available to
+                                                solve
+                                                problems. Code was very clean and easy to understand.
+                                            </p>
+                                            <h5 class="aspire-tag">Nate Taylor</h5>
+                                            <p class="m-0">Principal At Minotaur Law</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-button-prev swiper-button-prev-09 text-start my-2 d-inline-block position-static swiper-button-disabled"
+                                 tabindex="-1" role="button" aria-label="Previous slide"
+                                 aria-controls="swiper-wrapper-bbe69eb5c9089327" aria-disabled="true"/>
+                            <div class="swiper-button-next swiper-button-next-09 text-start my-2 d-inline-block position-static" tabindex="0"
+                                 role="button" aria-label="Next slide" aria-controls="swiper-wrapper-bbe69eb5c9089327"
+                                 aria-disabled="false"/>
+
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

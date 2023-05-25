@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="03" name="Vision Mission">
+        <section class="mission-vision bg-wrapper my-5"
+                 style="background-image:url(/custom_theme/static/src/img/bg-image-01.png); background-size: contain; background-position:center left;background-repeat:no-repeat">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="image-section col-12 col-xl-7 col-md-6">
+                        <img src="/custom_theme/static/src/img/animation01.gif" class="img-fluid" alt=""/>
+                    </div>
+                    <div class="content-section col-12 col-xl-5 col-md-6">
+                        <div class="title">
+                            <p class="title-small">our mission and vision</p>
+                            <h1 class="title-heading">Providing the best in
+                                <span>class people, process &amp;
+                                    solutions.
+                                </span>
+                            </h1>
+                        </div>
+                        <div class="py-2">
+                            <p class="py-1 mb-4">Aspire is a leading Liferay, Mobility BigData &amp; Customized Software
+                                Development Services providing company with development center. Providing high-quality
+                                and
+                                value software development services to the Independent Software Vendors.
+                            </p>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round" class="feather feather-check">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <p class="px-2">Creative &amp; Innovative Ideas</p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round" class="feather feather-check">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <p class="px-2">Build Long Term Relationships</p>
+                            </div>
+                        </div>
+                        <div class="py-4">
+                            <button href="#" class="custom-btn btn-main">Explore Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="02" name="Expert">
+
+        <section class="aspire-service">
+            <div class="container services py-5 h-7200px">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-xl-7 col-md-8">
+                        <div class="text-center">
+                            <p class="title-small">we are experts in</p>
+                            <h1 class="title-heading">Aspire Provides in
+                                <span>creativity design and innovative technology</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-container container mt-3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide card-service swiper-slide-active" role="group" aria-label="1 / 6"
+                                 style="width: 264px; margin-right: 20px;">
+                                <div class="move-bottom-top">
+                                    <img src="/custom_theme/static/src/img/front-end-development.png" alt=""
+                                         class="pt-2 pl-2"/>
+                                    <h5 class="py-3 my-0 fw-bold">Portal</h5>
+                                    <p class="my-0">Build portal solutions that combine information access and mechanisms.
+                                    </p>
+                                    <p class="text">
+                                        <a href="#" class="text text-decoration-none">
+                                            <u>Read More</u>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide card-service swiper-slide-next" role="group" aria-label="2 / 6"
+                                 style="width: 264px; margin-right: 20px;">
+                                <div class="move-bottom-top">
+                                    <img src="/custom_theme/static/src/img/erp-odoo.png" alt=""/>
+                                    <h5 class="py-3 my-0 fw-bold">Portal</h5>
+                                    <p class="my-0">Build portal solutions that combine information access and mechanisms.
+                                    </p>
+                                    <p class="text">
+                                        <a href="#" class="text text-decoration-none">
+                                            <u>Read More</u>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide card-service" role="group" aria-label="3 / 6"
+                                 style="width: 264px; margin-right: 20px;">
+                                <div class="move-bottom-top">
+                                    <img src="/custom_theme/static/src/img/icon_04.png" alt=""/>
+                                    <h5 class="py-3 my-0 fw-bold">Portal</h5>
+                                    <p class="my-0">Build portal solutions that combine information access and mechanisms.
+                                    </p>
+                                    <p class="text">
+                                        <a href="#" class="text text-decoration-none">
+                                            <u>Read More</u>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide card-service" role="group" aria-label="4 / 6"
+                                 style="width: 264px; margin-right: 20px;">
+                                <div class="move-bottom-top">
+                                    <img src="/custom_theme/static/src/img/portal.png" alt=""/>
+                                    <h5 class="py-3 my-0 fw-bold">Portal</h5>
+                                    <p class="my-0">Build portal solutions that combine information access and mechanisms.
+                                    </p>
+                                    <p class="text">
+                                        <a href="#" class="text text-decoration-none">
+                                            <u>Read More</u>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide card-service" role="group" aria-label="5 / 6"
+                                 style="width: 264px; margin-right: 20px;">
+                                <div class="move-bottom-top">
+                                    <img src="/custom_theme/static/src/img/icon_02.png" alt=""/>
+                                    <h5 class="py-3 my-0 fw-bold">Portal</h5>
+                                    <p class="my-0">Build portal solutions that combine information access and mechanisms.
+                                    </p>
+                                    <p class="text">
+                                        <a href="#" class="text text-decoration-none">
+                                            <u>Read More</u>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide card-service" role="group" aria-label="6 / 6"
+                                 style="width: 264px; margin-right: 20px;">
+                                <div class="move-bottom-top">
+                                    <img src="/custom_theme/static/src/img/icon_01.png" alt=""/>
+                                    <h5 class="py-3 my-0 fw-bold">Portal</h5>
+                                    <p class="my-0">Build portal solutions that combine information access and mechanisms.
+                                    </p>
+                                    <p class="text">
+                                        <a href="#" class="text text-decoration-none">
+                                            <u>Read More</u>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination pt-5"/>
+
+                </div>
+                <img src="/custom_theme/static/src/img/left_arrow.png"
+                     class="swiper-button-prev swiper-button-prev-02 d-sm-none d-lg-block d-md-block"
+                     style="height: 15px; width: 15px; margin-top: 80px; margin-left: -20px;"/>
+                <img src="/custom_theme/static/src/img/right_arrow.png"
+                     class="swiper-button-next swiper-button-next-02 d-sm-none d-lg-block d-md-block"
+                     style="height: 15px; width: 15px; margin-top: 80px; margin-right: -20px;"/>
+
+            </div>
+        </section>
+    </template>
+</odoo>

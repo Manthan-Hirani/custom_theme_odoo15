@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="07" name="Accelerate">
+        <section class="image-padding bg-wrapper"
+                 style="background-image:url(/custom_theme/static/src/img/bg-image-03.png); background-size: contain; background-position:center left;background-repeat:no-repeat">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="image-section col-12 col-xl-7 col-md-6">
+                        <img src="/custom_theme/static/src/img/animation03.gif" class="img-fluid" alt=""/>
+                    </div>
+                    <div class="content-section align-self-center col-12 col-xl-5 col-md-6">
+                        <div class="title">
+                            <p class="title-small">Accelerate</p>
+                            <h1 class="title-heading">We bring your
+                                <span>Imagination to Reality Amaze everyone with our Reality Service</span>
+                            </h1>
+                        </div>
+                        <div class="py-2">
+                            <p class="py-1 mb-4">Modernize your core systems to tackle high-frequency decision making at
+                                the speed of insights and achieve zero latency. Build a digital infrastructure that
+                                enables your enterprise to listen, learn and leverage entrenched knowledge to make
+                                better decisions with minimal intervention.
+                            </p>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round" class="feather feather-check">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <p class="px-2">Digital agility for global scalability</p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round" class="feather feather-check">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <p class="px-2">Freedom from data inaccuracies</p>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24"
+                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                     stroke-linejoin="round" class="feather feather-check">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <p class="px-2">Shining a light on legacy app data</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

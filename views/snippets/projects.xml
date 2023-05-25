@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="11" name="Projects">
+        <section class="aspire-projects">
+            <div class="container projects pb-5">
+                <div class="row">
+                    <div class="col-12 col-xl-3 col-md-3 py-5 title">
+                        <p class="title-small">look at</p>
+                        <h1 class="title-heading">Our Projects</h1>
+                        <div class="swiper-button-prev swiper-button-prev-11 text-start my-2 d-inline-block position-static swiper-button-disabled"
+                             tabindex="-1" role="button" aria-label="Previous slide"
+                             aria-controls="swiper-wrapper-df889b4a510d99f8f" aria-disabled="true">
+                        </div>
+                        <div class="swiper-button-next swiper-button-next-11 text-start my-2 d-inline-block position-static"
+                             tabindex="0"
+                             role="button" aria-label="Next slide" aria-controls="swiper-wrapper-df889b4a510d99f8f"
+                             aria-disabled="false">
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-9 col-md-9">
+                        <div class="swiper mySwiperproject swiper-initialized swiper-horizontal swiper-backface-hidden">
+                            <div class="swiper-wrapper wrapper py-5" id="swiper-wrapper-df889b4a510d99f8f"
+                                 aria-live="polite"
+                                 style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide card-service"
+                                     style="width: 263.667px; margin-right: 20px;" role="group" aria-label="1 / 6">
+                                    <div class=" px-4 project-data mx-1 text-center">
+                                        <img src="/custom_theme/static/src/img/project-mobile.png" alt=""/>
+                                        <h5 class="mt-4 mb-0 fw-bold">Mobile</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card-service"
+                                     style="width: 263.667px; margin-right: 20px;" role="group" aria-label="2 / 6">
+                                    <div class=" px-4 project-data mx-1 text-center">
+                                        <img src="/custom_theme/static/src/img/project-liferay.png" alt=""/>
+                                        <h5 class="mt-4 mb-0 fw-bold">Liferay</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card-service" style="width: 263.667px; margin-right: 20px;"
+                                     role="group" aria-label="3 / 6">
+                                    <div class=" px-4 project-data mx-1 text-center">
+                                        <img src="/custom_theme/static/src/img/project-uiux.png" alt=""/>
+                                        <h5 class="mt-4 mb-0 fw-bold">UI/UX</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card-service" style="width: 263.667px; margin-right: 20px;"
+                                     role="group" aria-label="4 / 6">
+                                    <div class=" px-4 project-data mx-1 text-center">
+                                        <img src="/custom_theme/static/src/img/project-java.png" alt=""/>
+                                        <h5 class="mt-4 mb-0 fw-bold">Java</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card-service" style="width: 263.667px; margin-right: 20px;"
+                                     role="group" aria-label="5 / 6">
+                                    <div class=" px-4 project-data mx-1 text-center">
+                                        <img src="/custom_theme/static/src/img/project-bigdata.png" alt=""/>
+                                        <h5 class="mt-4 mb-0 fw-bold">Big Data</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card-service" style="width: 263.667px; margin-right: 20px;"
+                                     role="group" aria-label="6 / 6">
+                                    <div class=" px-4 project-data mx-1 text-center">
+                                        <img src="/custom_theme/static/src/img/project-dotnet.png" alt=""/>
+                                        <h5 class="mt-4 mb-0 fw-bold">.NET</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

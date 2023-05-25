@@ -6,19 +6,27 @@
                 <div class="o_panel_header">Custom Theme
                     <div class="o_panel_body">
                         <t t-snippet="custom_theme.01"
-                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_about.jpg"/>
+                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_text_block_image_fw.gif"/>
                         <t t-snippet="custom_theme.02"
-                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_about.jpg"/>
+                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_three_columns_carousel.gif"/>
                         <t t-snippet="custom_theme.03"
                            t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_about.jpg"/>
-                        <t t-snippet="custom_theme.04"/>
-                        <t t-snippet="custom_theme.05"/>
-                        <t t-snippet="custom_theme.06"/>
-                        <t t-snippet="custom_theme.07"/>
-                        <t t-snippet="custom_theme.08"/>
-                        <t t-snippet="custom_theme.09"/>
-                        <t t-snippet="custom_theme.10"/>
-                        <t t-snippet="custom_theme.swiper_02"/>
+                        <t t-snippet="custom_theme.04"
+                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_news_carousel.gif"/>
+                        <t t-snippet="custom_theme.05"
+                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_partner.jpg"/>
+                        <t t-snippet="custom_theme.11"
+                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_banner_2.gif"/>
+                        <t t-snippet="custom_theme.06"
+                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_text_block_image_fw.gif"/>
+                        <t t-snippet="custom_theme.07"
+                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_about.jpg"/>
+                        <t t-snippet="custom_theme.08"
+                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_contact.jpg"/>
+                        <t t-snippet="custom_theme.09"
+                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_testimonial.jpg"/>
+                        <t t-snippet="custom_theme.10"
+                           t-thumbnail="/custom_theme/static/src/img/snippets_thumbs/s_panel_extended.gif"/>
                     </div>
                 </div>
             </div>

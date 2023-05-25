@@ -32,55 +32,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto col-lg-2 ">
+                    <div class="col-auto col-lg-2">
                         <div class="header-social-icon d-flex justify-content-end align-items-center">
-                            <div class="search-modern">
-                                <div class="search-wrap">
-                                    <a class="search-btn openBtn px-4" href="#" onclick="openSearch()">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"
-                                             viewBox="0 0 24 24" fill="none" stroke="#003f63" stroke-width="2"
-                                             stroke-linecap="round" stroke-linejoin="round"
-                                             class="feather feather-search">
-                                            <circle cx="11" cy="11" r="8"/>
-                                            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div id="myOverlay" class="overlay shadow-sm">
-                                    <div class="search-header">
-                                        <span class="search-header-logo">
-                                            <img src="/custom_theme/static/src/img/logo.png" alt=""/>
-                                        </span>
-                                        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="26px" height="26px"
-                                                 viewBox="0 0 24 24" fill="none" stroke="#003f63" stroke-width="2"
-                                                 stroke-linecap="round" stroke-linejoin="round"
-                                                 class="feather feather-x">
-                                                <line x1="18" y1="6" x2="6" y2="18"/>
-                                                <line x1="6" y1="6" x2="18" y2="18"/>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                    <div class="search_form_wrap">
-                                        <form role="search" method="get" class="search_form" action="#&quot;"
-                                              data-inited-validation="1">
-                                            <input type="text" class="search_field fill_inited"
-                                                   placeholder="Type words and hit enter" value=""/>
-                                            <button type="submit" class="search_submit">
-                                                <svg
-                                                        xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"
-                                                        viewBox="0 0 24 24" fill="none" stroke="#003f63"
-                                                        stroke-width="2"
-                                                        stroke-linecap="round" stroke-linejoin="round"
-                                                        class="feather feather-search">
-                                                    <circle cx="11" cy="11" r="8"/>
-                                                    <line x1="21" y1="21" x2="16.65" y2="16.65"/>
-                                                </svg>
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
                             <div>
                                 <button class="btn-menu" onclick="openNav()">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"
@@ -93,7 +46,7 @@
                                     </svg>
                                 </button>
                                 <div id="myNav" class="overlay-menu">
-                                    <button class="closebtn" onclick="closeNav()">
+                                    <button class="closebtn mt-5 mr-5" onclick="closeNav()">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px"
                                              viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
                                              stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
